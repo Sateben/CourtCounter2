@@ -83,6 +83,17 @@ public class MainActivity extends AppCompatActivity {
         counter2 = counter2 + number;
 
     }
+    
+    public void resetAll(View view)
+    {
+        TextView quantityTextView1 = (TextView) findViewById(
+                R.id.team1_text_view);
+        TextView quantityTextView2 = (TextView) findViewById(
+                R.id.team2_text_view);
+        if (quantityTextView1 != null && quantityTextView2 != null)
+        {quantityTextView1.setText("0");
+        quantityTextView2.setText("0");}
+    }
 }
 
 

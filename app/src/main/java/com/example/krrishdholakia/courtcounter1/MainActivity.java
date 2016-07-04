@@ -92,7 +92,10 @@ public class MainActivity extends AppCompatActivity {
                 R.id.team2_text_view);
         if (quantityTextView1 != null && quantityTextView2 != null)
         {quantityTextView1.setText("0");
-        quantityTextView2.setText("0");}
+        quantityTextView2.setText("0");
+        counter = 0;
+        counter2 = 0;
+        }
     }
 }
 
